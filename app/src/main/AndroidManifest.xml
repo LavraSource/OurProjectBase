@@ -10,11 +10,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MultipleActivityTest">
         <activity
+            android:name=".OptionActivity"
+            android:exported="true" />
+        <activity
+            android:name=".GameActivity"
+            android:exported="true" />
+        <activity
             android:name=".RefenenceActivity"
             android:exported="true" />
         <activity
             android:name=".AboutActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".SplashActivity"
             android:exported="true">
@@ -25,8 +31,8 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
-            android:exported="true"></activity>
+            android:name=".MainMenuActivity"
+            android:exported="true" />
     </application>
 
 </manifest>

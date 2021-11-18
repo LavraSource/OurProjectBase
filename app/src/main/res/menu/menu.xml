@@ -6,7 +6,4 @@
     <item
         android:title="Справка"
         android:id="@+id/refen"/>
-    <item
-        android:title="Выход"
-        android:id="@+id/exit"/>
 </menu>
